@@ -14,14 +14,14 @@ function Logout() {
   };
 
   return (
-    <div>
+    <>
       <button
         onClick={logout}
         className="px-4 py-1 mt-2 bg-white text-blue-600 text-white transition duration-300 transform hover:scale-125 hover:underline"
       >
         Logout
       </button>
-    </div>
+    </>
   );
 }
 

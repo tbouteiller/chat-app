@@ -31,7 +31,7 @@ function ChatWindow() {
   };
 
   return (
-    <div>
+    <>
       {isLoading && <h1>Loading...</h1>}
       {messages.map(({ id, photoURL, name, text, uid, date }) => (
         <div key={id}>
@@ -80,7 +80,7 @@ function ChatWindow() {
       ))}
       <Message scroller={scroller} />
       <div ref={scroller}></div>
-    </div>
+    </>
   );
 }
 

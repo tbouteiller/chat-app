@@ -11,14 +11,14 @@ function Login() {
   };
 
   return (
-    <div>
+    <>
       <button
         onClick={login}
         className="rounded-md px-4 py-1 bg-blue-600 text-white hover:bg-blue-500 transform hover:scale-110 transition duration-500"
       >
         Login with Google
       </button>
-    </div>
+    </>
   );
 }
 
