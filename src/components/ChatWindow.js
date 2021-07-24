@@ -73,7 +73,10 @@ function ChatWindow() {
                 />
               </svg>
 
-              <p className="text-xs">{date.toDate().toLocaleTimeString()}</p>
+              <p className="text-xs">
+                {date.toDate().toLocaleTimeString().slice(0, 5) +
+                  date.toDate().toLocaleTimeString().slice(8, 11)}
+              </p>
             </div>
           </div>
         </div>
