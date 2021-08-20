@@ -74,8 +74,8 @@ function ChatWindow() {
               </svg>
 
               <p className="text-xs">
-                {date.toDate().toLocaleTimeString().slice(0, 5) +
-                  date.toDate().toLocaleTimeString().slice(8, 11)}
+                {`${date.toDate().toLocaleDateString()} 
+                  ${date.toDate().toLocaleTimeString()}`}
               </p>
             </div>
           </div>
