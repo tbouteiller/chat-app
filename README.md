@@ -1,6 +1,6 @@
 # Chat-App
 
-I created a small React chat-app where users get sign in with a Google accounts and get authenticated through Firebases SDK. From here, users can post message, see other user's posts, and delete their own message.
+I created a small React chat-app where users sign in with a Google accounts and get authenticated through Firebase's SDK. From here, users can post messages, delete their own message, and see other user's posts.
 
 I incorporated the following into this project:
 
